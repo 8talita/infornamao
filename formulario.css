@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --color-white: #fff;
     --color-red: #e63636;
     --color-dark1: #181818;
@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 
-body {  /*corpo da página */
+body {  
     font-family:  Arial, sans-serif;
     background-color: rgb(226, 162, 35);
     color: var(--color-white);
@@ -22,15 +22,15 @@ body {  /*corpo da página */
     align-items: center;
     min-height: 100vh;
 }
-/* header/cabeçalho */
+/* header/cabeçalho 
 header {
     background-color: #041E42;
     width: 100%;
     padding: 10px 20px;
     margin-bottom: 20px;
 }
-/* lista de links no header/cabeçalho */
-.horizontal-list { /* lista de links */
+
+.horizontal-list { 
     padding: 0;
     list-style-type: none;
     text-align: center;
@@ -52,7 +52,7 @@ header {
 header button:hover {
     background-color: red;
 }
-/* botão voltar no header/cabeçalho */
+/* botão voltar no header/cabeçalho 
 header button {
     background-color: orange;
     color: #02224C;
@@ -70,8 +70,7 @@ header button {
 
 
 
-/* sessão informativa antes do formulário */
-.importance-section {
+/* sessão informativa antes do formulário 
     
     color: #02224C;
     padding: 50px 20px;
@@ -81,18 +80,18 @@ header button {
     border-radius: 10px;
     width: 80%;
     max-width: 800px;
-}/* sessão informativa antes do formulário */
+}/* sessão informativa antes do formulário 
 .importance-title {
     font-size: 2rem;
     margin-bottom: 20px;
 }
-/* sessão informativa antes do formulário */
+/* sessão informativa antes do formulário 
 .importance-text {
     font-size: 1.2rem;
     line-height: 1.5;
 }
 
-/* styles formulário */
+/* styles formulário 
 .content {
     background-color: var(--color-dark2);
     padding: 2rem;
@@ -100,19 +99,19 @@ header button {
     width: 100%;
     max-width: 600px;
 }
-/* Mensagem principal */
+/* Mensagem principal 
 h1 {
     margin-bottom: 1rem;
     text-align: center;
 }
-/* Style formulario */
+/* Style formulario 
 .content form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-/* Mensagem span */
+/* Mensagem span 
 .span-required {
     font-size: 12px;
     margin: 3px 0 0 1px;
@@ -125,7 +124,7 @@ label{
 p{
     text-align: center;
 }
-/* campos foormulário */
+/* campos foormulário 
 .inputs {
     padding: 8px 5px;
     outline: none;
@@ -136,18 +135,17 @@ p{
     width: 100%;
     transition: .3s;
 }
-/* style foco no inputs */
+/* style foco no inputs 
 .inputs:focus {
     border-color: orange;
 }
-/* seleção check box */
-.box-select {
+/* seleção check box 
     display: flex;
     justify-content: space-evenly;
     font-weight: bold;
     gap: 1rem;
 }
-/* Botão enviar do formulário */
+/* Botão enviar do formulário 
 button[type="submit"] {
     padding: 1rem;
     font-size: 1rem;
@@ -174,8 +172,7 @@ footer {
     width: 100%;
 }
 
-/* animação  da tela quem somos */
-@keyframes fadeInUp {
+/* animação  da tela quem somos 
     from {
         opacity: 0;
         transform: translateY(20px);
@@ -206,4 +203,4 @@ footer {
     header button {
         margin-top: 10px;
     }
-}
+} */
